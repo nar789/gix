@@ -1,38 +1,189 @@
-.App {
-  text-align: center;
+
+@font-face {
+  font-family: 'NanumMyeongjo-r';
+  src: url('/public/fonts/NanumMyeongjo.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'NanumMyeongjo-e';
+  src: url('/public/fonts/NanumMyeongjoExtraBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'NanumMyeongjo-b';
+  src: url('/public/fonts/NanumMyeongjoBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'DancingScript-b';
+  src: url('/public/fonts/DancingScript-Bold.ttf') format('truetype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.top-title {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #333;
+  text-shadow: none;
+  font-family: NanumMyeongjo-b;
+  font-size: 1.7rem;
 }
 
-.App-link {
-  color: #61dafb;
+.top-title-sub{
+  margin-top: 1em;
+  color: #333;
+  text-shadow: none;
+  font-family: NanumMyeongjo-b;
+  font-size: 1.2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.cover-heading {
+  margin-top: 7.5rem;
+  color: #fefefe;
+  font-family: NanumMyeongjo-b;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+body {
+  color: #fff;
+}
+
+header {
+  background-image: url("/public/img/top.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cover {
+  padding: 0 1.5rem;
+}
+
+
+.section1-title {
+  margin-top: 1em;
+  color: #333;
+  text-shadow: none;
+  font-size: 1rem;
+}
+
+.section1-main {
+  background-color: #fefefe;
+  font-family: NanumMyeongjo-r;
+  line-height: 2em;
+  font-size: 1.2rem;
+}
+
+.section1-sub {
+  font-family: NanumMyeongjo-b;
+  line-height: 2.1em;
+  font-size: 1.35rem;
+}
+
+
+.section2-title {
+  margin-top: 1em;
+  color: #333;
+  text-shadow: none;
+}
+
+.section2-main {
+  font-family: NanumMyeongjo-b;
+  line-height: 1.5em;
+  font-size: 1.35rem;
+  position: relative;
+}
+
+.section2-sub {
+  font-family: NanumMyeongjo-b;
+  line-height: 2em;
+  font-size: 1.2rem;
+}
+
+
+.section2-main::after {
+  width:100%;
+  height:100%;
+  content: "";
+  background-image: url("/public/img/section2.jpg");
+  background-size: cover;
+  background-position: right;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+.section6-title {
+  margin-top: 1em;
+  color: #333;
+  text-shadow: none;
+}
+
+.section6-location {
+  color: #333;
+  text-shadow: none;
+}
+
+.section6-main {
+  font-family: DancingScript-b;
+  line-height: 1.5em;
+  font-size: 2rem;
+}
+
+.section6-location-main {
+  font-family: NanumMyeongjo-e;
+  line-height: 1.5em;
+  font-size: 1.3rem;
+}
+
+.section6-sub {
+  font-family: NanumMyeongjo-r;
+  line-height: 1.5em;
+  font-size: 1.3rem;
+}
+
+.section6-location-sub {
+  font-family: NanumMyeongjo-r;
+  line-height: 1.5em;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.section8 {
+  background-color: #f9f9f9;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+}
+.container {
+  width:100%;
+  margin:0px !important;
+  padding:0px !important;
 }
