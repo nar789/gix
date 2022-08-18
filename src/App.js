@@ -50,7 +50,7 @@ function App() {
       <div className="wow fadeInUp">
             <p className="top-title">삼돌이 · 삼순이</p>
             <p className="top-title-sub">토요일 오전 11시</p>
-            <p className="top-title-sub">더채플앳웨스트 7층 단독홀</p>
+            <p className="top-title-sub">R5 웨딩홀</p>
             <br/><br/><br/>
             <hr className="cover-container mx-auto  flex-column" />
             <br/>
@@ -113,7 +113,7 @@ function App() {
             신랑 삼돌이 신부 삼순이 올림
         </p>
         <br/><br/><br/><br/>
-        <h1>갤러리자리!!</h1>
+        <h1>갤러리</h1>
 
 
 
@@ -121,7 +121,7 @@ function App() {
             <br/><br/>
             <p className="wow fadeInUp section6-title section6-main">Location</p>
             <div className="wow fadeInUp  section6-title">
-                <p className="section6-location-main" >더채플앳웨스트 7층 단독홀</p>
+                <p className="section6-location-main" >R5 웨딩홀</p>
                 <p className="section6-location-sub text-center" >
                     서울특별시 강서구 양천로 476
                 </p>
